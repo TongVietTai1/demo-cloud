@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Welcome back <%= user %></h1>
+      </div>
+      <div class="table">
+        <%- table_string %>
+        <br>
+        <a href="/logout">LOG OUT</a>
+      </div>
+    </div>
+  </body>
+</html>

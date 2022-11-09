@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #efefef;
+	font-family: monospace;
+}
+
+.container {
+	background-color: #fff;
+	width: 900px;
+	height: 600px;
+	border-radius: 40px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-items: center;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	box-shadow: 0 0 5px #555;
+}
+
+.header {
+	position: absolute;
+	top: 30px;
+	left: 110px;
+}
+
+.header h1, h2 {
+	color: #4e3737;
+}
+
+.login{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	height: 300px;
+	width: 600px;
+	background-image: linear-gradient(to right, rgba(0, 0, 255, 0.8), rgba(255, 0, 0, 0.8));
+	border-radius: 30px;
+}
+input{
+	padding: 10px 20px;
+	outline: none;
+	border: solid 2px rgb(44, 77, 199);
+	border-radius: 5px;
+	width: 70%;
+	height: 30px;
+}
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login h1{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 15px;
+	color: white;
+}
+
+input:focus{
+	border: solid 2px rgb(241, 56, 56);
+}
+
+#submit{
+	width: 30%;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(77, 166, 255);
+}
+#submit:hover{
+	color: white;
+	background-color: rgb(255, 77, 77);
+}
+form h2{
+	text-align: center;
+}
+
+
+
